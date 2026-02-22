@@ -6,4 +6,5 @@ tmux display-menu -T "baseline" \
   "save" s "run-shell '$CURRENT_DIR/save.sh'" \
   "restore" r "run-shell '$CURRENT_DIR/restore.sh'" \
   "safe restore" g "run-shell '$CURRENT_DIR/safe_restore.sh'" \
+  "status" v "run-shell '$CURRENT_DIR/status.sh'" \
   "exit" q ""
