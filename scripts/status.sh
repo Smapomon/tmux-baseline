@@ -113,4 +113,4 @@ done < "$STATE_FILE"
 } > "$STATUS_TMP"
 
 tmux display-popup -E -w 70% -h 70% -T " baseline status " \
-  bash -c "less -R -F -X '$STATUS_TMP'; rm -f '$STATUS_TMP'"
+  bash -c "less -R '$STATUS_TMP'; rm -f '$STATUS_TMP'"
